@@ -1,0 +1,152 @@
+* {
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #22212C;
+    color: #837E9F; 
+    display: grid;
+    grid-template-areas: 
+    "sidebar content";
+    grid-template-columns: 25vw 75vw;
+    ;
+
+}
+.sidebar {
+    grid-area: sidebar;
+    padding: 10px 20px;
+
+}
+.content {
+    grid-area: content;
+    padding: 10px 20px;
+}
+.name-card {
+    background-color: #302F3D;
+    padding: 10px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name-card img {
+    border-radius: 50%;
+    border: solid 3px green;
+}
+.contact-info {
+    margin-top: 5px;
+    background-color: #302F3D;
+    padding: 10px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+label {
+    margin: 0 30px;
+}
+a {
+    color: #837E9F;
+    text-decoration: none;
+}
+
+.contact-items {
+    margin: 5px;
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    padding: 0px 10px;
+    align-items: center;
+}
+.technologies {
+    margin-top: 20px;
+    background-color: #302F3D;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+   
+}
+ .tech {
+     padding: 0 10px;
+     margin-top: 10px;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+ }
+ .tech-items {
+     margin: 0 5px;
+     padding: 5px 15px;
+     background-color: #CB92B1;
+     border-radius: 20px;
+     color: #22212C;
+     font-weight: bold;
+
+ }
+ .my-projects {
+    background-color: #302F3D;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+ }
+ .project {
+     margin: 20px -12px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: auto;
+ }
+ .projeto1 {
+     size-adjust: 37,5vw;
+    margin: 20px 15px;
+    background-color: #302F3D;
+    padding: 10px;
+    border-radius: 20px;
+ }
+ .projeto2 {
+    margin: 20px;
+    background-color: #302F3D;
+    padding: 10px;
+    border-radius: 20px;
+ }
+ .posts {
+    background-color: #302F3D;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+ }
+ 
+ .publications {
+    margin-top: 20px;
+    background-color: #302F3D;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+ }
+
+ .img2 {
+    float: left;
+    margin-right: 10px;
+    border: solid green 2px ;
+    border-radius: 20px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
